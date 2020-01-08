@@ -1,10 +1,10 @@
-# [Sklep SMS](https://sklep-sms.pl/)
+# [Sklep SMS](https://sklep-sms.pl/) [![Release](https://img.shields.io/github/v/release/gammerce/plugin-sourcemod)](https://github.com/gammerce/plugin-sourcemod/releases/latest)
 
 Plugin SOURCEMOD do Sklepu SMS, który umożliwia dokonywanie zakupow z serwera.
 
 ## Wymagania
-* SOURCE MOD w wersji 1.7.x
-* Moduł sockets
+* SOURCEMOD 1.7.3+
+* Moduł System2
 
 ## Lista obsługiwanych gier
 * Counter-Strike: Global Offensive
