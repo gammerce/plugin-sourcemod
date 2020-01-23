@@ -18,4 +18,4 @@ Plugin SOURCEMOD do Sklepu SMS, który umożliwia dokonywanie zakupow z serwera.
 * VIP PRO
 * Rezerwacja Nicku
 * Rezerwacja Slota
-* Wszelkie usługi oparte na nadawaniu graczowi flag ( np. klasy Premium ) - [Instrukcja](https://github.com/gammerce/plugin-sourcemod/wiki/Utworzenie-us%C5%82ugi-nadaj%C4%85cej-graczowi-flagi)
+* Niestandardowe usługi oparte na nadawaniu graczowi flag ( np. klasy Premium ) - [Instrukcja](https://github.com/gammerce/plugin-sourcemod/wiki/Utworzenie-us%C5%82ugi-nadaj%C4%85cej-graczowi-flagi)
