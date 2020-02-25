@@ -45,5 +45,5 @@ Lista [komend](https://github.com/gammerce/plugin-sourcemod#shopsms) oddzielonyc
 #### shopsms_token ""
 Token serwera np. `6a89b488209677dc4647c8fece299139`.
 
-#### shopsms_url "1"
+#### shopsms_url ""
 Pełny adres URL sklepu np. `https://sklep.sklep-sms.pl`.
