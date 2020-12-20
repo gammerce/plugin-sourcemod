@@ -1,0 +1,24 @@
+name: Compile plugins
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  main:
+    name: Compile plugins
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - sm_version: "1.10.0"
+          - sm_version: "1.11.0"
+    steps:
+      -
+        name: Check out the repo
+        uses: actions/checkout@v2
+      -
+        name: Compile plugins
+        run: ./build.sh ${{ matrix.sm_version }} test
