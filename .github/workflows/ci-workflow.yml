@@ -13,14 +13,12 @@ jobs:
     strategy:
       matrix:
         include:
-          - amxx_version: "1.8.2"
-          - amxx_version: "1.8.3"
-          - amxx_version: "1.9.0"
-          - amxx_version: "1.10.0"
+          - sm_version: "1.10.0"
+          - sm_version: "1.11.0"
     steps:
       -
         name: Check out the repo
         uses: actions/checkout@v2
       -
         name: Compile plugins
-        run: ./build.sh ${{ matrix.amxx_version }} test
+        run: ./build.sh ${{ matrix.sm_version }} test
