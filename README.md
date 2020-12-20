@@ -1,4 +1,4 @@
-# [Sklep SMS](https://sklep-sms.pl/) [![Release](https://img.shields.io/github/v/release/gammerce/plugin-sourcemod)](https://github.com/gammerce/plugin-sourcemod/releases/latest)
+# [Sklep SMS](https://sklep-sms.pl/) ![Build](https://github.com/gammerce/plugin-sourcemod/workflows/Compile%20plugins/badge.svg)  [![Release](https://img.shields.io/github/v/release/gammerce/plugin-sourcemod)](https://github.com/gammerce/plugin-sourcemod/releases/latest)
 
 Plugin SOURCEMOD do Sklepu SMS, który umożliwia dokonywanie zakupow z serwera.
 
