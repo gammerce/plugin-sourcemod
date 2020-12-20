@@ -18,7 +18,6 @@ rm -f $DIR/plugins/*
 
 docker run \
     --rm \
-    -it \
     -v "$DIR/plugins":/tmp/builds \
     -v "$DIR/scripting":/tmp/sources \
     -v "$DIR/scripting/include/shopsms.inc":/tmp/addons/sourcemod/scripting/include/shopsms.inc \
