@@ -16,9 +16,14 @@ jobs:
           - sm_version: "1.10.0"
           - sm_version: "1.11.0"
     steps:
-      -
-        name: Check out the repo
+      - name: Check out the repo
         uses: actions/checkout@v2
-      -
-        name: Compile plugins
+      
+      - name: Compile plugins
         run: ./build.sh ${{ matrix.sm_version }} test
+      
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: plugins
+          path: /tmp/sources
