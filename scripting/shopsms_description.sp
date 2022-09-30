@@ -21,9 +21,11 @@ public void OnPluginStart()
 public Action CmdVip(int client, int args)
 {
 	ShopShowServiceDescription(client, "govip");
+	return Plugin_Continue;
 }
 
 public Action CmdVipPro(int client, int args)
 {
 	ShopShowServiceDescription(client, "govippro");
+	return Plugin_Continue;
 }
