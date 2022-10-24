@@ -3,7 +3,7 @@
 #endif
 #define _shopsms_const_included_
 
-#define VERSION "3.12.1"
+#define VERSION "3.12.2"
 #define PREFIX "{x1}[{x4}ShopSMS{x1}]"
 #define PREFIXCLR "[ShopSMS]"
 
